@@ -1,0 +1,14 @@
+<script>
+    function calcAver(arr) {
+        let sum = 0;
+        for (let i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
+        return sum / arr.length;
+    }
+
+    let x = [12, 23, 43, 54,  24];
+    let average = calcAver(x);
+    document.write(average);
+</script>
+

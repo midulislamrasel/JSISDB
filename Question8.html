@@ -1,0 +1,29 @@
+<script>
+    let x = prompt("");
+    let y = prompt("");
+    let z = prompt("");
+
+    if (x <= y && x <= z) {
+        document.write(x );
+        if (y <= z) {
+            document.write(y, z ) ;
+        } else {
+            document.write(z , y );
+        }
+    } else if (y <= x && y <= z) {
+        document.write(y );
+        if (x <= z) {
+            document.write(x , z );
+        } else {
+            document.write(z ,x );
+        }
+    } else {
+        document.write(z );
+        if (x <= y) {
+            document.write(x ,y );
+        } else {
+            document.write(y , x );
+        }
+    }
+
+</script>

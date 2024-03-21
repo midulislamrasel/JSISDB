@@ -1,0 +1,25 @@
+<script>
+    let numbers=[44,54,34,54,56,76,23,45,34,65];
+    function min(numbers){
+        let minNUmber=numbers[0];
+        for(n of numbers){
+           if(n<minNUmber){
+            minNUmber=n;
+           }
+        }        
+        return minNUmber;
+    }
+    
+    function max(numbers){
+        let maxNumber=numbers[0];
+        for(n of numbers){
+           if(n>maxNumber){
+            maxNumber=n;
+           }
+        }
+        return maxNumber;
+    }
+    document.write(min(numbers));
+    document.write("<br>");
+    document.write(max(numbers));
+</script>
